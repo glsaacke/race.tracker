@@ -8,5 +8,6 @@ namespace api.models
         public int phone { get; set; }
         public string email { get; set; }
         public string password { get; set; }
+        public int deleted { get; set; }
     }
 }

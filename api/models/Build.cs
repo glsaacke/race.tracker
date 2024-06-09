@@ -13,5 +13,6 @@ namespace api.models
         public double brakingST { get; set; }
         public double offroadST { get; set; }
         public int userID { get; set; }
+        public int deleted { get; set; }
     }
 }
