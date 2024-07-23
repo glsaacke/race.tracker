@@ -39,6 +39,7 @@ namespace api.repositories
             }
             return user;
          }
+         
         public List<User> GetAll(){
 
             List<User> users = new List<User>();
